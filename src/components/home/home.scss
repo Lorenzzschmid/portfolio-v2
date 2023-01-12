@@ -1,0 +1,17 @@
+.home-outer-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    color: grey;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    .cv-container {
+        display: flex;
+        position: relative;
+        right: 40rem;
+        bottom: 20rem;
+        border: 2px solid white;
+       
+}
+} 

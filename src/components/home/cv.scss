@@ -1,0 +1,19 @@
+.cta {
+    border: 2px solid white;
+    height: 15rem;
+    width: 15rem;
+    color: white;
+    .btn {
+        border: 1px solid white;
+        border-radius: 0.4rem;
+        color: black;
+        cursor: pointer;
+        display: inline-block;
+        padding: 0.75rem 1.2rem;
+        transition: all .4s ease;
+        transition: var(--transition);
+        width: -webkit-max-content;
+        width: max-content;
+        background-color: grey;
+    }
+}
