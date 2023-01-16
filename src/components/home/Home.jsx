@@ -1,14 +1,29 @@
 import React from 'react'
 import './home.scss'; 
-import CTA from './Cv';
+import CTA from '../cv/Cv';
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   return (
     <div className='home-outer-container'>    
-    <div className="cv-container">
-      <CTA />
+    <div className="animation-container">
+      <TypeAnimation
+      sequence={[
+        'Lorenz Schmid', 
+        1000, 
+        'Web Developer', 
+        2000, 
+        'Living in Berlin', 
+        2000,
+      ]}
+      wrapper="div"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '2rem' }}
+      speed={20}
+    />
     </div>
-    <h1 className='name'>Lorenz Schmid</h1>
+    
     </div>
   )
 }
