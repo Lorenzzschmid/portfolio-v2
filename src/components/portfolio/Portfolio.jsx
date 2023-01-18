@@ -2,7 +2,8 @@ import React from 'react';
 import './portfolio.scss'; 
 import IMG1 from '../../assets/images/IMG1.png'; 
 import IMG2 from '../../assets/images/IMG2.png'; 
-import IMG3 from '../../assets/images/IMG2.png'; 
+import IMG3 from '../../assets/images/IMG3.png'; 
+import IMG4 from '../../assets/images/IMG4.jpg'; 
 import Carousel from 'nuka-carousel/lib/carousel';
 
 
@@ -28,7 +29,7 @@ const data = [
       demo: '#'
     },{
       id: 4,
-    //   image: IMG4,
+      image: IMG4,
       title: 'Netflix Clone',
       github: 'https://github.com',
       demo: '#'
@@ -59,7 +60,12 @@ const Portfolio = () => {
              <Carousel>
                 {data.map(({id, image, title, github, demo})=> {
                     return (
-                        <img className="slider-image" src={image} alt={title} />                        
+                        <>
+                        <img className="slider-image" src={image} alt={title} /> 
+                        
+                           <h1>{title}</h1> 
+                        
+                        </>                   
                     )
                 })}
             </Carousel>   
