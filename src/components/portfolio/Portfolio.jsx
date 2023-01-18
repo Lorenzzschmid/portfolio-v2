@@ -65,7 +65,7 @@ const Portfolio = () => {
                         <>
                         <img className="slider-image" src={image} alt={title} /> 
                         
-                           <h1>{title}</h1> 
+                           <p id='portfolio-text'>{title}</p> 
                         
                         </>                   
                     )
