@@ -4,6 +4,8 @@ import IMG1 from '../../assets/images/IMG1.png';
 import IMG2 from '../../assets/images/IMG2.png'; 
 import IMG3 from '../../assets/images/IMG3.png'; 
 import IMG4 from '../../assets/images/IMG4.jpg'; 
+import IMG5 from '../../assets/images/IMG5.png';
+import IMG6 from '../../assets/images/IMG6.png';
 import Carousel from 'nuka-carousel/lib/carousel';
 
 
@@ -35,13 +37,13 @@ const data = [
       demo: '#'
     },{
       id: 5,
-    //   image: IMG5,
+      image: IMG5,
       title: 'Movie List',
       github: 'https://github.com',
       demo: '#'
     },{
       id: 6,
-    //   image: IMG6,
+      image: IMG6,
       title: 'Restaurants',
       github: 'https://github.com',
       demo: '#'
