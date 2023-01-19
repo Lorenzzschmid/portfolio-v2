@@ -20,10 +20,14 @@ const Contact = () => {
       )
     e.target.reset()
   };
-  
+
   return (
     <div className="contact-container">
-
+      <section className="contact">
+        <h5>Get In Touch</h5>
+        <h2>Contact Me</h2>
+        
+      </section>
     </div>
   )
 }
