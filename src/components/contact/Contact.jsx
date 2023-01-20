@@ -27,9 +27,23 @@ const Contact = () => {
 
         <div className="contact-form-container">
           <div className="contact-options">
+
             <article className="contact-option">
               <h4>Email</h4>
               <h5>lo.schmid@proton.me</h5>
+            </article>
+
+            <article className="contact-option">
+              <h4>Signal</h4>
+              <h5>01573123456</h5>
+              <a 
+                href="https://api.signal.com/send?phone+01573123456"
+                target='_blank'
+                rel='noreferrer'
+                >
+                Send a message
+              </a>
+
             </article>
           </div>
         </div>
