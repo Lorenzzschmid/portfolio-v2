@@ -2,6 +2,7 @@ import React from 'react';
 import './contact.scss';
 import {useRef} from 'react';
 import emailjs from 'emailjs-com'; 
+import { BsSignal } from "react-icons/bs";
 
 const Contact = () => {
   const form = useRef(); 
@@ -34,6 +35,7 @@ const Contact = () => {
             </article>
 
             <article className="contact-option">
+            <BsSignal className='contact-option-icon' />
               <h4>Signal</h4>
               <h5>01573123456</h5>
               <a 
@@ -43,8 +45,27 @@ const Contact = () => {
                 >
                 Send a message
               </a>
-
             </article>
+
+            <form ref={form} onSubmit={sendEmail}>
+              <input 
+              type="text"
+              name='name'
+              placeholder='Your Full Name'
+              required
+               />
+               <input type='email' name='email' placeholder='Your Email' required />
+               <textarea
+                name='message'
+                rows='7'
+                placeholder='Your Message'
+                required
+                ></textarea>
+                <button type='submit' className='btn btn-main'>
+                  Send Message
+                </button>
+            </form>
+
           </div>
         </div>
         
