@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.scss';
 import {useRef} from 'react';
-import emailjs from 'emailjs-com'; 
+import emailjs from 'emailjs-com' 
 import { BsSignal } from "react-icons/bs";
 
 const Contact = () => {
