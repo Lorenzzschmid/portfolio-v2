@@ -14,12 +14,17 @@
 }
 
 .contact-option {
-    background: lightgray; 
+    background: gray; 
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition); 
+}
+
+.contact-option:hover {
+    background: transparent;
+    border-color: white;
 }
 
 form {
