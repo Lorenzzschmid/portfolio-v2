@@ -5,6 +5,7 @@ import Home from './components/home/Home.jsx';
 import Nav from './components/nav/nav';
 import Portfolio from './components/portfolio/Portfolio';
 import Stack from './components/stack/Stack';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <About />
       <Stack />
       <Portfolio />
-      <Contact />      
+      <Contact /> 
+      <Footer />     
     </div>
   );
 }
