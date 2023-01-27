@@ -17,10 +17,12 @@ nav {
 nav a {
     background: transparent;
     padding: 0.9rem;
-    border-radius: 50%;
+    height: 100%;
+    border-radius: 15%;
     display: flex;
     color: lightgrey;
     font-size: 1.1rem;
+    
 }
 nav a:hover {
     background: rgba(0, 0, 0, 0.3); 
