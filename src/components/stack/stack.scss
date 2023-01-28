@@ -16,7 +16,6 @@
 
 .experience {
     display: flex;
-    justify-content: space-between;
 }
 
 .experience-details-icon {
@@ -30,6 +29,8 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    margin-left: 1rem;
+    margin-top: 2rem;
 }
 
 .experience > div:hover {
