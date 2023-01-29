@@ -19,5 +19,22 @@
     min-width: 35rem;
     border: 2px solid white;
     margin-top: 4rem;
-    transform:translate(100%);
+    // position: absolute;
+    // top: 10rem;
+    transform:translate(90%);
+    
+}    
+
+.head {
+    width: 50%;
+    height: 70%;
+    background: var(--skin); 
+    border-radius: 100% / 80% 80% 120% 120%; 
+    // top: 10%; 
+    // left: 50%; 
+    // transform: translate(-50%);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
 }
