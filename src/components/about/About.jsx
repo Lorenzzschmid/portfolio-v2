@@ -11,7 +11,9 @@ const About = () => {
           Hey! I am Lorenz, Fullstack Developer with a background in Philosophy and History. At the moment I am extending my knowledge in JavaScript and working on side projects created with React, SASS, Node.js, Express, MongoDB. 
         </p>
 
-        
+        <div className="me-portrait">
+          
+        </div>
 
     </div>
   )
