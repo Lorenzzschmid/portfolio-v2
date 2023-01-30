@@ -49,8 +49,20 @@
     left: 50%;
     transform: translate(-50%);
     border-radius: 60%;
-    
-    
-    
+}
 
+.eyebrow {
+    width: 5rem;
+    height: 1rem;
+    background: var(--hair);
+    position: absolute;
+    top: 34%;
+    left: 30%;
+
+}
+
+//how to set position as a global variable for the container
+
+.eyebrow + .eyebrow {
+    left: 54%; 
 }
