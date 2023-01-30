@@ -16,6 +16,8 @@ const About = () => {
           <div className="mouth"></div>
           <div className="eyebrow"></div>
           <div className="eyebrow"></div>
+          <div className="eye"></div>
+          <div className="eye"></div>
         </div>
 
 
