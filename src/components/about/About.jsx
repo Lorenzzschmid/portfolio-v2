@@ -13,7 +13,9 @@ const About = () => {
 
         <div className="me-portrait">
           <div className="head"></div>
+          <div className="mouth"></div>
         </div>
+
 
     </div>
   )

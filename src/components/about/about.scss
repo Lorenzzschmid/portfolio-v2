@@ -34,7 +34,23 @@
     // left: 50%; 
     // transform: translate(-50%);
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%);
+    box-shadow: 1.25vmin 3.5vmin 0 -0vmin var(--hair), -1.25vmin 3.5vmin 0 -0vmin var(--hair), -2vmin -7vmin var(--hair), 2vmin -7vmin var(--hair);
+}
+
+.mouth {
+    width: 2rem;
+    height: 1rem;
+    background: rgb(92, 14, 14);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 60%;
+    
+    
+    
+
 }
