@@ -19,6 +19,8 @@ const About = () => {
           <div className="eye"></div>
           <div className="eye"></div>
           <div className="nose"></div>
+          <div className="ear"></div>
+          <div className="ear"></div>
         </div>
 
 
