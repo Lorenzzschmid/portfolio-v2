@@ -18,6 +18,7 @@ const About = () => {
           <div className="eyebrow"></div>
           <div className="eye"></div>
           <div className="eye"></div>
+          <div className="nose"></div>
         </div>
 
 

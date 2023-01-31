@@ -66,3 +66,18 @@
 .eyebrow + .eyebrow {
     left: 54%; 
 }
+
+.nose {
+  width: 7%;
+  height: 20%;
+  border-radius: 0 2vmin 5vmin 5vmin;
+  border: 1vmin solid var(--line-face);
+  border-right: 0.75vmin solid var(--line-face);
+  border-left-color: transparent;
+  border-top: 0;
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  transform: translate(-50%, 0);
+  background: var(--skin);
+}
