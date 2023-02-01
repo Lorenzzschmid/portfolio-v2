@@ -16,14 +16,12 @@ const About = () => {
           <div className="mouth"></div>
           <div className="eyebrow"></div>
           <div className="eyebrow"></div>
-          <div className="eye"></div>
-          <div className="eye"></div>
+          <div class="eye r ha hb"></div>
+          <div class="eye r ha hb"></div>
           <div className="nose"></div>
-          <div className="ear"></div>
+          <div className="ear ha"></div>
           <div className="ear"></div>
         </div>
-
-
     </div>
   )
 }
